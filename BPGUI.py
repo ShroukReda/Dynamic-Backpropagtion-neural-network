@@ -15,14 +15,7 @@ def on_select(event=None):
     A, M = T1.Test(Classes, NumOfHidd, NumofNeurons, Bias, Func,MyFeatures,D)
     print(A)
     print(M)
-    '''
-    f1,f2,f3,f4,c1,c2 = T1.SetClassesAndFeatures(comboboxes[0].get(),comboboxes[1].get(),comboboxes[2].get(),comboboxes[3].get()) #de l event bta3 zrar OK endhy hna okay foll
-    w=T1.MSETrain(f1,f2,f3,f4,c1,c2,R2.get(),R.get(),comboboxes[4].get())
-    Acc,M=T1.Test(f1,f2,f3,f4,c1,c2,w)
-    T1.Draw(f1,f2,f3,f4,w)
-    print(Acc)
-    print(M)
-    '''
+
 ListOfNumOfNeurons=[]
 def Clear(event=None):
     ListOfNumOfNeurons.append(R22.get())
